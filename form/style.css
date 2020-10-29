@@ -26,10 +26,11 @@ body{
 }
 .youCanKindly{
     padding: 1em;
+    font-size: 120%;
     
 }
 .back{
-    font-size: 250%;
+    font-size: 240%;
     display: flex;
     height: auto;
 
@@ -62,7 +63,7 @@ form{
     display: flex;
     flex-direction: column;
     padding: 1em;
-    font-size: 180%;
+    font-size: 160%;
     color: #2E8B57;
 
 }
