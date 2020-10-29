@@ -1,4 +1,4 @@
-/* *{border: 1px solid pink; } */
+/* *{border: 1px solid pink;} */
 html{
     background-image: url(back.png);
     background-repeat: no-repeat;
@@ -9,9 +9,7 @@ body{
     margin: 0;
     display: flex;
     min-height: 100vh;
-    /* background-color: crimson; */
-    opacity: 0.85;
-    font-size: 240%;
+    opacity: 0.88;
     font-family: monospace;
 
 }
@@ -25,44 +23,40 @@ a{
     margin: auto;
 
 }
-/* light */
 .large{
     background-color: #111;
     color: snow;
     display: flex;
+    font-size: 1.25rem;
 
 }
-/* dark + smaller containers */
+.large-content{
+    padding: 1em;
+
+}
 .small{
     display: flex;
     flex-direction: column;
 
 }
-/* dark */
 .small-content{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    font-size: large;
     color: #111;
     background-color: snow;
+    font-size: 120%;
 
 }
 .quote{
+    margin: auto;
     padding: .2em;
-    font-size: 140%;
 
 }
-/* social media + about */
 .small-footer{
     display: flex;
-    background-image: inherit;
-    color: #111;
 
 }
-.social-media{
+.about{
     background-color: #111;
     color: crimson;
     display: flex;
@@ -70,19 +64,12 @@ a{
 }
 .me{
     margin: auto;
-    /* max-width: 100%;
-    max-height: 80%; */
     
 }
 .fa-github{
     color: snow;
-    /* background: rgb(17,17,17);
-    background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(121,9,9,1) 42%, rgba(255,0,0,1) 100%); */
-    /* background: rgb(17,17,17);
-    background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(255,250,250,1) 42%, rgba(255,250,250,1) 100%); */
+
 }
-/* .info{display: flex; flex-direction: column; color: snow;}
-.info a{padding: .2em;} */
 
 
 
@@ -95,7 +82,6 @@ a{
         min-width: 61.8vh;
         max-width: 61.8vh;
         align-items: flex-end;
-
     }
     .small{
         min-width: 38.2vh;
@@ -104,14 +90,12 @@ a{
         max-height: 61.8vh;
         border-top-left-radius: 1%;
         border-bottom-left-radius: 1%;
-
     }
     .small-content{
         min-width: 38.2vh;
         max-width: 38.2vh;
         min-height: 38.2vh;
         max-height: 38.2vh;
-
     }
     .small-footer{
         min-width: 38.2vh;
@@ -120,31 +104,14 @@ a{
         max-height: 23.61vh;
         flex-direction: row-reverse;
     }
-    .social-media{
+    .about{
         min-width: 23.61vh;
         max-width: 23.61vh;
         min-height: 23.61vh;
         max-height: 23.61vh;
         align-items: flex-end;
     }
-    /* .social-media a{justify-content: flex-end;} */
-    /* .fa-twitter{
-        grid-column: 2/3;
-    }
-    .fa-github{
-        grid-row: 2/3;
-        grid-column: 2/3;
-    }
-    .fa-wordpress{
-        grid-row: 2/3;
-    } */
-    /* .info{
-        min-width: 14.59vh;
-        max-width: 14.59vh;
-        min-height: 23.61vh;
-        max-height: 23.61vh;
-        align-items: flex-end;
-    } */
+
 }
 
 
@@ -159,7 +126,6 @@ a{
         max-width: 61.8vw;
         justify-content: flex-end;
         align-items: flex-end;
-
     }
     .small{
         min-width: 61.8vw;
@@ -184,27 +150,11 @@ a{
         max-height: 38.2vw;
         flex-direction: column;
     }
-    .social-media{
+    .about{
         min-width: 23.61vw;
         max-width: 23.61vw;
         min-height: 23.61vw;
         max-height: 23.61vw;
     }
-    /* .social-media a{
-        justify-content: flex-end;
-    } */
-    /* .fa-github{
-        grid-row: 1/2;
-        grid-column: 2/3;
-    }
-    .fa-wordpress{
-        grid-row: 2/3;
-        grid-column: 2/3;
-    } */
-   /*  .info{
-        min-width: 23.61vw;
-        max-width: 23.61vw;
-        min-height: 14.59vw;
-        max-height: 14.59vw;
-    } */
+    
 }

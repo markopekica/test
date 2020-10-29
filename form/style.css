@@ -13,10 +13,6 @@ body{
     display: flex;
     font-family: monospace;
     opacity: .88;
-    /* background-color: royalblue; */
-    /* background: rgb(17,17,17);
-    background: linear-gradient(0deg, rgba(17,17,17,1) 0%, rgba(65,105,225,1) 27%, rgba(65,105,225,1) 100%);
-    */
 
 }
 .container{ /* all content */
@@ -36,7 +32,6 @@ body{
     font-size: 250%;
     display: flex;
     height: auto;
-    /* padding: 1em; */
 
 }
 .back a{
@@ -63,22 +58,12 @@ input{
     color: #111;
 
 }
-
-
-
-/* .form-div{
-    max-width: 60%;
-} */
 form{
     display: flex;
     flex-direction: column;
     padding: 1em;
     font-size: 180%;
-    /* color: forestgreen; */
     color: #2E8B57;
-    /* max-width: 58%; */
-    /* margin-top: 2em; */
-    /* border: 1px dotted crimson; */
 
 }
 .form_part{
