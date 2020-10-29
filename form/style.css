@@ -26,13 +26,14 @@ body{
 }
 .youCanKindly{
     padding: 1em;
-    font-size: 120%;
+    font-size: 100%;
     
 }
 .back{
     font-size: 240%;
     display: flex;
     height: auto;
+    padding: 1em;
 
 }
 .back a{
