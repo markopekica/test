@@ -43,6 +43,7 @@ body{
 }
 .larger-div{
     display: flex;
+    flex-direction: column;
     background-color: #111;
     text-align: center;
     overflow: hidden scroll;
