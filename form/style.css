@@ -26,14 +26,15 @@ body{
 }
 .youCanKindly{
     padding: 1em;
-    font-size: 100%;
+    font-size: 80%;
     
 }
 .back{
-    font-size: 240%;
+    font-size: 2rem;
     display: flex;
     height: auto;
-    padding: 1em;
+    /* margin: .5em; */
+    /* border: 1px solid red; */
 
 }
 .back a{
@@ -51,22 +52,19 @@ body{
     justify-content: center;
 
 }
-input{
-    border: none;
-    background-color: green;
-    height: 1.5em;
-
-}
-::placeholder{
-    color: #111;
+.form-div{
+    margin: auto;
+    z-index: 1;
 
 }
 form{
     display: flex;
     flex-direction: column;
     padding: 1em;
-    font-size: 160%;
+    font-size: 120%;
     color: #2E8B57;
+    z-index: 1;
+    top: 0;
 
 }
 .form_part{
@@ -77,6 +75,17 @@ form{
 }
 .form_part *{
     margin: .5em;
+
+}
+::placeholder{
+    color: #111;
+
+}
+input{
+    margin: auto;
+    border: none;
+    background-color: green;
+    height: 1.5em;
 
 }
 input[type=submit]{
