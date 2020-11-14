@@ -27,7 +27,7 @@ a{
     background-color: #111;
     color: snow;
     display: flex;
-    font-size: 1.25rem;
+    font-size: 1em;
 
 }
 .large-content{
@@ -44,7 +44,7 @@ a{
     text-align: center;
     color: #111;
     background-color: snow;
-    font-size: 120%;
+    font-size: 1em;
 
 }
 .quote{

@@ -30,7 +30,7 @@ body{
     
 }
 .back{
-    font-size: 2rem;
+    font-size: 2em;
     display: flex;
     height: auto;
     /* margin: .5em; */
@@ -61,7 +61,7 @@ form{
     display: flex;
     flex-direction: column;
     padding: 1em;
-    font-size: 120%;
+    font-size: 1em;
     color: #2E8B57;
     z-index: 1;
     top: 0;
@@ -94,8 +94,8 @@ input[type=submit]{
     height: 3em;
     width: 8em;
     margin: auto;
-    font-size: 42%;
-    font-weight: 800;
+    font-size: .7em;
+    font-weight: 600;
     color: #111;
     
 }
