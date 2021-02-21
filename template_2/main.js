@@ -111,12 +111,14 @@ function invertColors() {
   document.getElementById("header").style.backgroundColor = "black";
   //document.getElementById("navbar-list").style.color = "#111"
   document.getElementById("header").style.boxShadow = "0em 0 .32em grey";
+  document.getElementById("mid").style.border = "1px solid white";
   if (bodyColor == "rgb(17, 17, 17)") {
     document.getElementById("tijelo").style.backgroundColor = "#fff";
     document.getElementById("tijelo").style.color = "#111";
     document.getElementById("header").style.backgroundColor = "#111";
     //document.getElementById("navbar-list").style.color = "white"
     document.getElementById("header").style.boxShadow = "0em 0 .4em #111";
+    document.getElementById("mid").style.border = "1px solid #111";
   }
 
 
