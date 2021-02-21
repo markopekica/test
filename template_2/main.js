@@ -1,4 +1,4 @@
-var quotes = [
+/* var quotes = [
   "The most disgraceful kind of loss, however, is that due to carelessness.", //letter 1
   "for such restlessness is the sign of a disordered spirit.", //letter 2
   "Everywhere means nowhere.", //letter 2
@@ -13,7 +13,7 @@ function NewQuote() {
   var randomNumber = Math.floor(Math.random() * quotes.length);
   document.getElementById("qte").innerHTML = quotes[randomNumber];
   document.getElementById("quote-author").innerHTML = "- Lucius Annaeus Seneca the Younger (c. 4 BC - AD 65)";
-}
+} */
 
 var generateMaterialIcon = () => {
   let materialIconArr = [
@@ -111,14 +111,14 @@ function invertColors() {
   document.getElementById("header").style.backgroundColor = "black";
   //document.getElementById("navbar-list").style.color = "#111"
   document.getElementById("header").style.boxShadow = "0em 0 .32em grey";
-  document.getElementById("mid").style.border = "1px solid white";
+  //document.getElementById("mid").style.border = "1px solid white";
   if (bodyColor == "rgb(17, 17, 17)") {
     document.getElementById("tijelo").style.backgroundColor = "#fff";
     document.getElementById("tijelo").style.color = "#111";
     document.getElementById("header").style.backgroundColor = "#111";
     //document.getElementById("navbar-list").style.color = "white"
     document.getElementById("header").style.boxShadow = "0em 0 .4em #111";
-    document.getElementById("mid").style.border = "1px solid #111";
+    //document.getElementById("mid").style.border = "1px solid #111";
   }
 
 

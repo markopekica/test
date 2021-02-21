@@ -116,7 +116,7 @@ img {
   font-size: 110%;
   /* text-align: center; */
 }
-.decoration {
+/* .decoration {
   margin: auto;
   display: flex;
   justify-content: center;
@@ -129,16 +129,12 @@ img {
   width: 42%;
 }
 .mid {
-  /* width: fit-content; */
   margin: 0 .75em;
   height: 4px;
   width: 4px;
   border: 1px solid black;
-  /* -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -o-transform: rotate(90deg); */
-        transform: rotate(45deg);
-}
+  transform: rotate(45deg);
+} */
 .quote-author {
   margin: auto;
   width: 64vw;
