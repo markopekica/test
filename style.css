@@ -1,6 +1,6 @@
 /* *{border: 1px solid pink;} */
 html{
-    background-image: url(back.png);
+    background-image: url(0xUniverse.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -18,6 +18,9 @@ a{
     color: inherit;
 
 }
+/* h4 {
+    font-size: 80%;
+} */
 .container{
     display: flex;
     margin: auto;
@@ -52,6 +55,7 @@ a{
     padding: .2em;
 
 }
+.quote-author { font-size: 80% !important;  }
 .small-footer{
     display: flex;
 

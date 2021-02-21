@@ -1,0 +1,150 @@
+html {
+  min-height: 100vh;
+}
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: 110%;
+}
+#header {
+  width: 100vw;
+  height: 42px;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  box-shadow: 0em 0 0.4em #111;
+  margin-bottom: 0.2em;
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 5em; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+#header-icon {
+  color: #e0115f;
+  margin: auto;
+  margin-top: 0.25em;
+}
+#header-icon:hover {
+  cursor: grabbing;
+}
+#navbar-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  margin: 0.5em auto;
+  margin: .25em auto;
+  padding: 0.25em;
+}
+#navbar-list * {
+  margin: auto;
+}
+.invert-colors {
+  width: 96vw;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+#swich {
+  cursor: crosshair;
+}
+.container {
+  max-width: 80vw;
+  margin: 0.75em auto;
+  display: flex;
+  flex-direction: column;
+}
+.picture-div {
+  display: flex;
+  text-align: center;
+  margin: 1em auto;
+}
+.picture-div img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+img {
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.uh {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  width: 42vw;
+  max-width: 300px;
+  margin: auto;
+}
+.contact a {
+  text-decoration: none;
+  color: #e0115f;
+  margin: 2em auto 2.5em auto;
+}
+.short-info {
+  margin: 1em auto;
+  width: 64vw;
+  max-width: 600px;
+  font-size: 110%;
+  /* text-align: center; */
+}
+.decoration {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  max-width: 800px;
+  margin-top: 4rem;
+}
+.left, .right {
+  width: 42%;
+}
+.mid {
+  width: fit-content;
+  margin: 0 .75em;
+}
+.quote-author {
+  margin: auto;
+  width: 64vw;
+  max-width: 600px;
+  font-size: 80%;
+}
+@media only screen and (min-width: 1080px) {
+  .container {
+    max-width: 800px;
+  }
+}
+@media only screen and (max-width: 200px) {
+  .contact {
+    width: 80vw;
+  }
+}
+/* * {border: 1px solid red;} */

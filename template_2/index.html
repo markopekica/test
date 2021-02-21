@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal page</title>
+    <meta
+      name="keywords"
+      content="HTML, CSS, JS, personal, web, page, template, personal site template"
+    />
+    <meta name="description" content="Personal Web Page" />
+    <meta name="author" content="Marko Pekica" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="tijelo">
+
+
+    <div id="header">
+      <span id="header-icon" class="material-icons" onclick="headerFun()">
+        <!-- whatshot -->
+      </span>
+      <div id="navbar-list" style="display: none">
+        <span>projects</span>
+        <!-- <span>about</span> -->
+      </div>
+    </div>
+
+
+    <div class="invert-colors">
+      <span id="swich" onclick="invertColors()" class="material-icons">
+        invert_colors
+      </span>
+    </div>
+
+
+    <div class="container">
+      <!-- PERSONAL -->
+      <div class="picture-div">
+        <img src="a.png" />
+      </div>
+      <!-- name -->
+      <span class="uh">PM</span>
+      <!-- links/contact -->
+      <div class="contact">
+        <a
+          href="https://github.com/markopekica"
+          class="fa fa-github"
+          target="_blank"
+        ></a>
+        <a href="#" class="fa fa-linkedin" target="_blank"></a>
+      </div>
+
+
+
+      <!-- DECORATION above q -->
+      <div class="decoration">
+        <div class="left">
+          <hr>
+        </div>
+        <div class="mid">
+          &diams;
+        </div>
+        <div class="right">
+          <hr>
+        </div>
+      </div>
+
+      <!-- QUOTE -->
+      <q id="qte" onclick="NewQuote()" class="short-info">
+        Click me for a quote from Seneca
+      </q>
+      <span id="quote-author" class="quote-author">
+        <!-- - Lucius Annaeus Seneca the Younger (c. 4 BC - AD 65) -->
+      </span>
+
+      <!-- /CONTAINER -->
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
